@@ -3,23 +3,19 @@
 <head>
     <title>Combinators</title>
     <style>
-       /* descendent selector (space) */
-       div p {
-        color:orange;
+       span div {
+        color: orange;
+      }
+
+       span > div {
+        font-size: large;
        }
 
-       /* child selector (>) ⁎/
-       div > p {
-        text: large;
-       }
-
-       /* adjacent sibling selector (+)⁎/
-       div + p {
+       span + div {
         color: red;
        }
 
-       /* general sibling selector (~) ⁎/
-       div ~ p {
+       span ~ div {
         background-color: yellow;
        }
     </style>
