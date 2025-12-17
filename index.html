@@ -3,7 +3,25 @@
 <head>
     <title>Combinators</title>
     <style>
-        
+       /* descendent selector (space) */
+       div p {
+        color:orange;
+       }
+
+       /* child selector (>) */
+       div > p {
+        text: large;
+       }
+
+       /* adjacent sibling selector (+)*/
+       div + p {
+        color: red;
+       }
+
+       /* general sibling selector (~) */
+       div ~ p {
+        background-color: yellow;
+       }
     </style>
 </head>
 
